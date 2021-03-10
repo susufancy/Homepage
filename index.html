@@ -3,30 +3,42 @@
 <head>
 <style>
 #header {
-    background-color:black;
+    /*背景色黑色，字体白色*/
+    background-color: rgb(111, 111, 240);
     color:white;
+    /*文字居中*/
     text-align:center;
+    /*设置头部字体大小为large */
+    font-size: large;
     padding:5px;
 }
 #nav {
+    
     line-height:30px;
     background-color:#eeeeee;
-    height:1000px;
-    width:400px;
+    /* height:1000px;
+    width:400px; */
+    height: 100%;
+    width: 20%;
     float:left;
-    padding:5px;	      
+    padding-bottom: 50%;
 }
 #section {
-    width:800px;
+    /* width:800px; */
+    
+    height: 100%;
+    width: 75%;
     float:left;
-    padding:10px;	 	 
+    padding-left: 5%;	 	 
 }
-#footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-   padding:5px;	 	 
+
+
+aaa {
+    color: red;
+}
+a {
+    text-decoration: underline;
+    color: blue;
 }
 </style>
 </head>
@@ -51,8 +63,10 @@ I have learned basic knowledge about Computer Architecture and Operating System.
 <div id="section">
 <h2>Education Experience</h2>
 <p>
-    <h3><b>Shanghai Jiao Tong University</b></h3> <br />
-B. S. in Computer Science   &nbsp;    &nbsp;&nbsp;      Sep. 2018 ~ Jun. 2022 (expected) <br />
+    <h3 style="font-style: italic;font-size: large;float: left;">Shanghai Jiao Tong University &nbsp; </h3> <br />
+    <img style="float: left;padding-bottom: 5px;position: relative;left:20px;top: -25px;" src="https://github.com/susufancy/Homepage/blob/main/SJTU.png?raw=true width="75" height="75"/>
+    <div style="clear: both;position: relative;left: 0px;top: -15px;">B. S. in Computer Science   &nbsp;    &nbsp;&nbsp;      Sep. 2018 ~ Jun. 2022 (expected) <br /></div>
+
 <ul>
     <li>GPA:3.7/4.3</li>
     <li>RANK:30%</li>
@@ -64,7 +78,7 @@ B. S. in Computer Science   &nbsp;    &nbsp;&nbsp;      Sep. 2018 ~ Jun. 2022 (e
     <ul>
         <li>Read the paper and reproduce the traditional human pose estimation model (VIBE, EFT), implement the algorithm and train the model.</li>
         <li>Research on the unsupervised learning method of human body pose estimation.</li>
-        <li>Propose to introduce optical flow estimation to traditional pose estimation algorithms to improve accuracy. Try to implement the proposed model which incorporates optical flow information into VIBE (the traditional baseline model to estimate human pose).</li>
+        <li><aaa>Propose to introduce optical flow estimation to traditional pose estimation algorithms to improve accuracy.</aaa> Try to implement the proposed model which incorporates optical flow information into VIBE (the traditional baseline model to estimate human pose).</li>
         <li>Experimental evaluations show my new model has more accurate estimation especially for sports videos like soccer and skating.</li>
     </ul>
 </p>
@@ -93,7 +107,7 @@ B. S. in Computer Science   &nbsp;    &nbsp;&nbsp;      Sep. 2018 ~ Jun. 2022 (e
     <ul>
         <li>Implement data argument on diabetes datasets and SLE datasets</li>
         <li>Train classification models for diabetic retinopathy, and transfer it to SLE classification problem based on DAN and Fine-tune to increase the accuracy of SLE classification models</li>
-        <li>Gained 93% accuracy better than 89% accuracy without transfer learning.</li>
+        <li><aaa>Gained 93% accuracy better than 89% accuracy without transfer learning.</aaa></li>
         <li><a href="https://github.com/susufancy/TransferLearning/blob/main/Research%20on%20Transfer%20Learning.doc?raw=true">Paper</a></li>
     </ul>
 </p>
@@ -117,5 +131,4 @@ B. S. in Computer Science   &nbsp;    &nbsp;&nbsp;      Sep. 2018 ~ Jun. 2022 (e
 
 </body>
 </html>
-
 
